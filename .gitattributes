@@ -1,0 +1,2 @@
+# Preserve authenticated source/table bytes and cross-platform SHA256 values.
+* -text whitespace=cr-at-eol

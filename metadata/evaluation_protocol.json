@@ -1,0 +1,73 @@
+{
+  "AMP": false,
+  "G_microbatch": 4,
+  "N_microbatch": 4,
+  "SSIM": "Gaussian 11x11 sigma1.5; population covariance; data_range=1",
+  "TF32": false,
+  "blend": "positive Hann, FP32 products then ordered FP64 accumulation",
+  "bootstrap": {
+    "draws": 10000,
+    "pool_streams_within_subject": true,
+    "seed": 20261107,
+    "unit": "subject16"
+  },
+  "conditions": [
+    "uniform_003",
+    "uniform_006",
+    "uniform_009",
+    "spatial",
+    "clean"
+  ],
+  "data_range": 1,
+  "diagnostic_stresses": {
+    "DIAGNOSTIC_NOISE": {
+      "minus": 0.75,
+      "plus": 2.0
+    },
+    "DIAGNOSTIC_SHIFT": {
+      "minus": [
+        -3,
+        1
+      ],
+      "plus": [
+        3,
+        -1
+      ]
+    }
+  },
+  "edge_mae": "mean of both scipy Sobel components /8, reflect boundary",
+  "foreground_mask": "reference > 0.05",
+  "policy": [
+    "raw",
+    "projected"
+  ],
+  "population": "development",
+  "positions": [
+    0,
+    4,
+    7,
+    11
+  ],
+  "primary_stresses": [
+    "SHIFT1",
+    "SHIFT2",
+    "NOISE_HIGH"
+  ],
+  "scope": "No reserved-population reader or confirmation evaluator is included",
+  "streams": [
+    20261117,
+    20261118
+  ],
+  "stress_position": 7,
+  "stresses": [
+    "BASELINE",
+    "SHIFT1",
+    "SHIFT2",
+    "NOISE_HALF",
+    "NOISE_HIGH",
+    "DIAGNOSTIC_SHIFT",
+    "DIAGNOSTIC_NOISE"
+  ],
+  "stride": 64,
+  "tile": 128
+}

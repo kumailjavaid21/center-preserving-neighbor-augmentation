@@ -1,0 +1,472 @@
+{
+  "public_derived_tables": {
+    "results/clean_metrics.csv": "condition=clean rows from the same original metric tables; scalar values unchanged.",
+    "results/result_summary.json": "Exact pooled projected noisy_mean rows of ablation_comparisons.csv, with original descriptive intervals.",
+    "results/structural_metrics.csv": "Column projection of standard_metrics.csv, robustness_metrics.csv and stress_scenarios.csv; scalar values unchanged."
+  },
+  "records": [
+    {
+      "authenticated_source": "aqigan_stage15/nafnet.py",
+      "public_path": "src/models/nafnet.py",
+      "selection_or_adaptation": "Executable NAF computation retained; unused architecture_inventory helper removed; documentation references updated.",
+      "source_sha256": "0682b063fbcae24bb389afd54b1a7e020fcd8741bf4fdcfff0f1c676cf897fd7"
+    },
+    {
+      "authenticated_source": "aqigan/models.py",
+      "public_path": "src/models/noise_estimator.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: NoiseEstimator",
+      "source_sha256": "c616b9646c363aa92ab1799151e1f84029251aa11b735f36bda85e047a70c70a"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/adjacent_context/models.py",
+      "public_path": "src/models/generator.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: FourNAF, Generator",
+      "source_sha256": "a278b38992d4da8ff77e15c685b1374d090039301195c30810cd2f203de3a3c4"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/adjacent_evidence/models.py",
+      "public_path": "src/models/jiang.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: JiangMCDnCNN3",
+      "source_sha256": "7dd48e08504c94dc2d8d25be4d052ac05e9d7926aca84094c4d5347dbee417e0"
+    },
+    {
+      "authenticated_source": "aqigan/data.py",
+      "public_path": "src/augmentation/rician_corruption.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: sigma_field, rician",
+      "source_sha256": "78f18fd2424760ffe23bf89896224b2c3edb5f8c6e33f2dfa3c6e9136277c033"
+    },
+    {
+      "authenticated_source": "aqigan/common.py",
+      "public_path": "src/augmentation/randomness.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: named_seed",
+      "source_sha256": "3b8aad463243eddf32c3d8e3132bf6c463293f52405d96342ef3b8e622c4152d"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/data.py",
+      "public_path": "src/augmentation/transforms.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: ah, transform",
+      "source_sha256": "97696fdff8c7efd3a1972946ec26dc902cf30a3e962f0dda9bf61c83a627d1ec"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/context_robustness/samples.py",
+      "public_path": "src/augmentation/neighbor_augmentation.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: shift, training, stress, historical_context",
+      "source_sha256": "d99175e19f89d828b5bcd4b7114119c167cf02a3888ddfda825b185e84405e0f"
+    },
+    {
+      "authenticated_source": "aqigan_stage9/renderer.py",
+      "public_path": "src/restoration/native_tiling.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: geometry, blend_tiles",
+      "source_sha256": "3705a421f000b2204aeba2bc743bfbb43d189ee755f0f5cdea6df38e547e0b27"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/adjacent_evidence/models.py",
+      "public_path": "src/restoration/native.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: check_noise, _plane, _chunks, prepare, native",
+      "source_sha256": "7dd48e08504c94dc2d8d25be4d052ac05e9d7926aca84094c4d5347dbee417e0"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/adjacent_context/models.py",
+      "public_path": "src/restoration/contextual.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: gaussian, moments, compatibility, features, native",
+      "source_sha256": "a278b38992d4da8ff77e15c685b1374d090039301195c30810cd2f203de3a3c4"
+    },
+    {
+      "authenticated_source": "aqigan/metrics.py",
+      "public_path": "src/evaluation/metrics.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: image_metrics",
+      "source_sha256": "12c496d9f8780c2e0f1cd0aa10f5de5e230dfdaa2690efe52530c3248af41579"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/evaluate.py",
+      "public_path": "src/evaluation/scoring.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: scores",
+      "source_sha256": "cc68470941366cfc09d6e4f35ecc133a109325595bcb68caff784eb8169a23e3"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/context_robustness/models.py",
+      "public_path": "src/objective.py",
+      "selection_or_adaptation": "Exact function/class source extraction; imports redirected to public modules. Selected: optimizer, hinge, component",
+      "source_sha256": "34b04be2f149e3eb68d2bfa6243d8b0c3de089996bfe3e07ada1e5a81af74f41"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/adjacent_context/samples.py",
+      "public_path": "src/augmentation/transforms.py",
+      "selection_or_adaptation": "Additional exact helper function extraction; imports redirected only.",
+      "source_sha256": "b2354a4048a979005a38ff9da39b9445eb6c8fb0dddd0053b755839231ee4288"
+    },
+    {
+      "authenticated_source": "aqigan/evaluate.py",
+      "public_path": "src/restoration/native_tiling.py",
+      "selection_or_adaptation": "Additional exact helper function extraction; imports redirected only.",
+      "source_sha256": "aeccec456efbc8fe8ab8a3a544838e8854e75fa48425e62351e97d606d5afc6e"
+    },
+    {
+      "authenticated_source": "aqigan_stage13/renderer.py",
+      "public_path": "src/restoration/native_tiling.py",
+      "selection_or_adaptation": "Additional exact helper function extraction; imports redirected only.",
+      "source_sha256": "d7e52393b082faf4de3ebd932fa2270b06fc7f8c8878dbd127cd0806c04ab4d5"
+    },
+    {
+      "authenticated_source": "aqigan_stage15/renderer.py",
+      "public_path": "src/restoration/contextual.py",
+      "selection_or_adaptation": "Additional exact helper function extraction; imports redirected only.",
+      "source_sha256": "b154bd1a7d0082efcad3d0c42d798fc0b0ca8194e7d572fcf7f0084b11521abd"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/absolute_metrics.csv",
+      "public_path": "results/standard_metrics.csv",
+      "selection_or_adaptation": "Concatenate per-stream and pooled original rows; values unchanged.",
+      "source_sha256": "1c1f550aeffa305dacd18e34413723ab9dc024749a9a48d767bc6e36697331f3"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/pooled_absolute_metrics.csv",
+      "public_path": "results/standard_metrics.csv",
+      "selection_or_adaptation": "Concatenate per-stream and pooled original rows; values unchanged.",
+      "source_sha256": "427456f5ffb9b6c5fee88a2c0ad07b92e8ae3feb34764a63f8475c61db67effe"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/absolute_metrics.csv",
+      "public_path": "results/robustness_metrics.csv",
+      "selection_or_adaptation": "Concatenate per-stream and pooled original rows; values unchanged.",
+      "source_sha256": "55027ca16fb560b79e5ae1e6cb82fdd44e7bc95f47f3e12880cbef7a7c3e4231"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/pooled_absolute_metrics.csv",
+      "public_path": "results/robustness_metrics.csv",
+      "selection_or_adaptation": "Concatenate per-stream and pooled original rows; values unchanged.",
+      "source_sha256": "04110d52b9b3e85c363070e272dfe829b83c55f141da523363f94ae9db05048a"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/absolute_metrics.csv",
+      "public_path": "results/stress_scenarios.csv",
+      "selection_or_adaptation": "Concatenate per-stream and pooled original rows; values unchanged.",
+      "source_sha256": "7c1db32cdee1b7aa6a75ec1d4e6475be6f541e3b1a501c224e44018d6e8ff38c"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/pooled_absolute_metrics.csv",
+      "public_path": "results/stress_scenarios.csv",
+      "selection_or_adaptation": "Concatenate per-stream and pooled original rows; values unchanged.",
+      "source_sha256": "d0d1c18d56867c8aacef529c98a6da6e0b125f1b76db356d7055ff073e4484b1"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/paired_subject_effects.csv",
+      "public_path": "results/subject_level_effects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "3123d245d1b1a09fd48a011ba627199ff688e065072ab62b27349c51133a54c6"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/paired_subject_effects.csv",
+      "public_path": "results/subject_level_effects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "0e2d137b37aa0e10c725f877b2784154e7e92cac06ea139d480aaa329afc4ffe"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/paired_subject_effects.csv",
+      "public_path": "results/subject_level_effects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "6e4c4297d252b43a3b50fbadc4903e357b77e86a4004fbb80db50d39ca41c6f9"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/site_contrasts.csv",
+      "public_path": "results/site_level_effects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "aaf419e809fb3cb64113e62422326733bf8e9bf432623bfb2c1b541705914684"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/site_contrasts.csv",
+      "public_path": "results/site_level_effects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "82660e1c038b8ef008ccafcc401b0a5d13c696d6686a883f082fd36d0ddca13b"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/site_contrasts.csv",
+      "public_path": "results/site_level_effects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "ee580cb51a50355a8f8edb6beed96f61f6cea36c590a1480df558b5b0dfb2706"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/site_metrics.csv",
+      "public_path": "results/site_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "44ee3e546ccd7773b34ac0164a037c5c0df119c6deb29205afb94a0d36126ede"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/pooled_site_metrics.csv",
+      "public_path": "results/site_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "dc844d8873d505983338bf0abc75df79471be92fc7044a4aa2dc0885d13ee297"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/site_metrics.csv",
+      "public_path": "results/site_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "593113406d9276ac5896b46e5158c326f0746e1acb8dc7e4a5ed21e0f467eef2"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/pooled_site_metrics.csv",
+      "public_path": "results/site_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "0a12a8211ab63c0441c74a9a9006fe3b640e81654a3845345fc4609d4ff3124e"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/site_metrics.csv",
+      "public_path": "results/site_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "69ed60981e3b8cea4632c5eae992858acdd2ce976814dbeb887d74053bc9e1e7"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/pooled_site_metrics.csv",
+      "public_path": "results/site_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "b96b18df82393cd0e692a3a3c090859edeb3fbed96567e7866e6c02af43b162d"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/subject_metrics.csv",
+      "public_path": "results/subject_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "5e9d6a86f0ac7698df3c6da7364e84651848e545f1e241e20da794a5165ad217"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/pooled_subject_metrics.csv",
+      "public_path": "results/subject_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "6cad6248555e0b960a43d82f7a58e3e9320bac715377ebe72ec18f25480970cb"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/subject_metrics.csv",
+      "public_path": "results/subject_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "1ca3dcb13ac9a9a80801cfa12f3a73c5e2e571b3aea5e21c8bca71834bde47cf"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/pooled_subject_metrics.csv",
+      "public_path": "results/subject_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "df68eb064c0591d4eeb6972d525678bf7a2cd8488305b52f2aa6d027fe7df70d"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/subject_metrics.csv",
+      "public_path": "results/subject_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "0042824288c23d597950833de7fdfd5d17b3ee3fb8b8940e25ef8f139ee41782"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/pooled_subject_metrics.csv",
+      "public_path": "results/subject_metrics.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "d92a5700c6590d0615cbe6695e2818b36fd20c574e73f6a2dc0b66580002dc82"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/paired_bootstrap.csv",
+      "public_path": "results/ablation_comparisons.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "1a5b5863f83c43fe7bff51c9aa8e30162c879ce260bd6a54a4ee4c7d9b8b55c6"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/paired_bootstrap.csv",
+      "public_path": "results/ablation_comparisons.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "86ac8bb72f2b78a0a4b66bceb5cb041513cbdac0c8938205c332a47ebe65dedc"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/paired_bootstrap.csv",
+      "public_path": "results/ablation_comparisons.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "1c2b60a0f74e2416807e2d838f6d61155856cdfd941b653a73c6280d387405d1"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/adverse_subjects.csv",
+      "public_path": "results/adverse_subjects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "ffa50a30645c2c44eb6f92b5aacb676d54dd40baa0789e11a2b09f598341684d"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/adverse_subjects.csv",
+      "public_path": "results/adverse_subjects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "6dfefb779076329690f9b331ffe80f0aef926c4516c54bc6e779eee0588338f4"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/adverse_subjects.csv",
+      "public_path": "results/adverse_subjects.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "d1b5731a28d527d67c98388d4b9f9bdea61d4c26fca50378e865dade651cac0d"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/standard_tables/bootstrap_rng_receipts.csv",
+      "public_path": "results/bootstrap_rng_receipts.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "c1b7ca24500d33d6c884b8edad4c024adcda1df34a3cc34e112c4133e1a20b73"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/endpoint_tables/bootstrap_rng_receipts.csv",
+      "public_path": "results/bootstrap_rng_receipts.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "54254bde92ea499f5d8945b510f9eb8cd064d8ad6c6429bb435e9eb3b59a273e"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/stress_tables/bootstrap_rng_receipts.csv",
+      "public_path": "results/bootstrap_rng_receipts.csv",
+      "selection_or_adaptation": "Add explicit scenario label; preserve every original scalar row/value.",
+      "source_sha256": "dd5b29aee2eefd3b8c4dec988acf1c5bb0abf6b11c46d4488766b2846faf8991"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/standard_cases.csv",
+      "public_path": "results/standard_cases.csv",
+      "selection_or_adaptation": "All original scalar rows/values; explicit column allowlist",
+      "source_sha256": "c6961777236cfe6f18910599c43dc106f8748b09b67bb81f56ae6caa5178a082"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/stress_cases.csv",
+      "public_path": "results/stress_cases.csv",
+      "selection_or_adaptation": "All original scalar rows/values; explicit column allowlist",
+      "source_sha256": "8ecb3e450b9684cafc682637ff312d7d43a3a41e9dc0b319cf99e13b8ded5510"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/native_latency.csv",
+      "public_path": "results/inference_costs.csv",
+      "selection_or_adaptation": "All original scalar rows/values; original columns",
+      "source_sha256": "3b029a65d6ea586ffd3334a68aa64510114d365a925821eb464bb0f26d0afa82"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/native_latency_draws.csv",
+      "public_path": "results/inference_cost_draws.csv",
+      "selection_or_adaptation": "All original scalar rows/values; explicit column allowlist",
+      "source_sha256": "8d3f65633ec948b9ef3bc8154c63b9f6b2d05f78aff4da8a930f9ce2ade687f4"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/practical_targets.csv",
+      "public_path": "results/original_retention_targets.csv",
+      "selection_or_adaptation": "All original scalar rows/values; original columns",
+      "source_sha256": "30a6f7596e7cc8458c3f82e32eeb577531168c18af41f93df04fac546b1e0318"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/realized_nuisance_distribution.csv",
+      "public_path": "results/realized_nuisance_distribution.csv",
+      "selection_or_adaptation": "All original scalar rows/values; original columns",
+      "source_sha256": "5768c155e3e72c841a12f2fed930b7a86c36934cd307542d0d5eeccae9b888a6"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/tables/risk_trajectories.csv",
+      "public_path": "results/anchor_risk_trajectories.csv",
+      "selection_or_adaptation": "All original scalar rows/values; original columns",
+      "source_sha256": "57c4eee97e5ea0e323e42f06382141a62e78321366dd51c46b550c277a9eb5bd"
+    },
+    {
+      "authenticated_source": "metadata/research17/context_robustness/all_fits_frozen.json",
+      "public_path": "results/training_costs.csv",
+      "selection_or_adaptation": "Exact allowlisted six-fit cost/count fields only; seconds/bytes are original measured values.",
+      "source_sha256": "7c29131f3d57a506216ddd7560dbac95dcc4a2a33ef217997c82ed2e8948d26c"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/anchors/completed.json",
+      "public_path": "results/shared_anchor_costs.csv",
+      "selection_or_adaptation": "Shared TRAIN scalar-anchor generation cost, separate from generator training seconds.",
+      "source_sha256": "423036f36606369fd9e3fb78bb11fa595c080ab1fe35204156dcd87961a56c22"
+    },
+    {
+      "authenticated_source": "configs/research17/context_robustness/experiment.json",
+      "public_path": "configs/nominal.json",
+      "selection_or_adaptation": "Original relevant configuration fields plus explicit arm/initialization labels; no default changed.",
+      "source_sha256": "a7ffae5220b61878bd761665663afedffc97d5bfc03605c3ebbb7e46bf8453d4"
+    },
+    {
+      "authenticated_source": "configs/research17/context_robustness/experiment.json",
+      "public_path": "configs/augmented.json",
+      "selection_or_adaptation": "Original relevant configuration fields plus explicit arm/initialization labels; no default changed.",
+      "source_sha256": "a7ffae5220b61878bd761665663afedffc97d5bfc03605c3ebbb7e46bf8453d4"
+    },
+    {
+      "authenticated_source": "configs/research17/context_robustness/experiment.json",
+      "public_path": "configs/anchored.json",
+      "selection_or_adaptation": "Original relevant configuration fields plus explicit arm/initialization labels; no default changed.",
+      "source_sha256": "a7ffae5220b61878bd761665663afedffc97d5bfc03605c3ebbb7e46bf8453d4"
+    },
+    {
+      "authenticated_source": "publication/aqigan_mri_restoration/results/context_robustness/confirmation_candidate/NAFNet_LICENSE.txt",
+      "public_path": "THIRD_PARTY_LICENSES.txt",
+      "selection_or_adaptation": "Byte-identical combined upstream NAFNet MIT / BasicSR Apache-2.0 license notice.",
+      "source_sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "authenticated_source": "aqigan/data.py",
+      "public_path": "src/restoration/preprocessing.py",
+      "selection_or_adaptation": "Historical preprocessing statement order, nonzero selection, percentile and reference-plane arithmetic retained; explicit public TRAIN/development file adapter.",
+      "source_sha256": "78f18fd2424760ffe23bf89896224b2c3edb5f8c6e33f2dfa3c6e9136277c033"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/context_robustness/models.py",
+      "public_path": "src/training.py",
+      "selection_or_adaptation": "Public checkpoint/data/anchor-cache orchestration; original native, objective and paired sampling functions retained.",
+      "source_sha256": "34b04be2f149e3eb68d2bfa6243d8b0c3de089996bfe3e07ada1e5a81af74f41"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/context_robustness/recovery.py",
+      "public_path": "src/training.py",
+      "selection_or_adaptation": "Public durable checkpoint orchestration; preserve optimizer/scheduler/RNG on committed resume and stop on ambiguous work.",
+      "source_sha256": "85d51d9af3699378d2df413c01c9bd546fc60e58950fda2a6a24cc55127762dc"
+    },
+    {
+      "authenticated_source": "aqigan/data.py",
+      "public_path": "scripts/evaluate.py",
+      "selection_or_adaptation": "Original validation_corruption seed namespace and float32 Rician observations; explicit public development population only.",
+      "source_sha256": "78f18fd2424760ffe23bf89896224b2c3edb5f8c6e33f2dfa3c6e9136277c033"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/context_robustness/evaluation.py",
+      "public_path": "scripts/evaluate.py",
+      "selection_or_adaptation": "Explicit matched-arm/frozen-parent entry point; original native/scoring functions used.",
+      "source_sha256": "d4e7feb3273e89636a6801b9c832792ad3ec1cdb040904643e3d5097aaa9d8cf"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/context_robustness/analysis.py",
+      "public_path": "src/evaluation/aggregation.py",
+      "selection_or_adaptation": "Standard-library verification of original scalar positions/conditions/streams/subjects; no new model outputs or intervals.",
+      "source_sha256": "e25c501541b645a07dd4e72c97e22c0bcff693525d01bdaca3f0cfd2bf2e8d2d"
+    },
+    {
+      "authenticated_source": "aqigan_research17/repair/adjacent_evidence/analysis.py",
+      "public_path": "src/evaluation/aggregation.py",
+      "selection_or_adaptation": "Original noisy_mean/high_spatial and subject-first aggregation semantics; existing confidence intervals retained.",
+      "source_sha256": "fef941eb857da9634ecb3885312455813f334f44df89be6d9226ff278b7b8c5d"
+    },
+    {
+      "authenticated_source": "reports/research17/context_robustness/timing/completed.json",
+      "public_path": "metadata/resource_protocol.json",
+      "selection_or_adaptation": "Original measured timing protocol fields and TRAIN fixture identity; no pixel data.",
+      "source_sha256": "0bfae132b7128d074cb28420719e27611acda09c20b196f972c18f15333b18e8"
+    },
+    {
+      "authenticated_source": "metadata/research17/adjacent_context/access_policy.json",
+      "public_path": "metadata/development_population.json",
+      "selection_or_adaptation": "Only original TRAIN/development subject and site fields; no file paths or protected population.",
+      "source_sha256": "0e4260f2f7e34f37e9c96319e9d71a302a9d378e4132a36b26f2aa983a8f0eeb"
+    },
+    {
+      "authenticated_source": "metadata/research17/context_robustness/parents.json",
+      "public_path": "metadata/model_specifications.json",
+      "selection_or_adaptation": "Relevant parent and frozen-estimator identities; omit internal artifact locations and unrelated history.",
+      "source_sha256": "f086f5eccff313c3cb5b29a1bfc1fc27509859f160c1aa629a149ca5aa4eaf89"
+    },
+    {
+      "authenticated_source": "metadata/research17/context_robustness/all_fits_frozen.json",
+      "public_path": "metadata/model_specifications.json",
+      "selection_or_adaptation": "Original six matched FINAL2400 identities only.",
+      "source_sha256": "7c29131f3d57a506216ddd7560dbac95dcc4a2a33ef217997c82ed2e8948d26c"
+    },
+    {
+      "authenticated_source": "configs/research17/context_robustness/experiment.json",
+      "public_path": "metadata/experiment_protocol.json",
+      "selection_or_adaptation": "Public scientific protocol fields only.",
+      "source_sha256": "a7ffae5220b61878bd761665663afedffc97d5bfc03605c3ebbb7e46bf8453d4"
+    },
+    {
+      "authenticated_source": "configs/research17/context_robustness/experiment.json",
+      "public_path": "metadata/evaluation_protocol.json",
+      "selection_or_adaptation": "Original development conditions, stresses and subject/bootstrap rules with measured native renderer semantics.",
+      "source_sha256": "a7ffae5220b61878bd761665663afedffc97d5bfc03605c3ebbb7e46bf8453d4"
+    }
+  ],
+  "source_hash_semantics": "Original authenticated internal file bytes; public files are exact selected code/scalar excerpts with stated adapters. No original private path contents or protected-image identifiers are included."
+}

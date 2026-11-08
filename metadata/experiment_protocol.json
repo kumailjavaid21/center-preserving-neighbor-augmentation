@@ -1,0 +1,19 @@
+{
+  "arms": [
+    "NOMINAL",
+    "AUGMENTED",
+    "ANCHORED"
+  ],
+  "center_and_reference_preserved_between_views": true,
+  "data_access": "explicit TRAIN/development manifests only",
+  "fresh_updates_per_fit": 2400,
+  "loss_and_augmentation_configuration": "configs/*.json",
+  "scientific_lock_sha256": "b6bf26889512cbedc47614f78e9375a44f1ecf4582968b6bd356386c562a1047",
+  "streams": [
+    20261117,
+    20261118
+  ],
+  "title": "Center-Preserving Neighbor Augmentation for Robust Multislice MRI Denoising",
+  "training_cases_per_update": 5,
+  "views_per_case": 2
+}

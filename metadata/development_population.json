@@ -1,0 +1,327 @@
+{
+  "development": [
+    {
+      "site": "Guys",
+      "subject": "IXI021"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI052"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI075"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI078"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI181"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI209"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI237"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI256"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI305"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI376"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI433"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI438"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI468"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI508"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI556"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI594"
+    }
+  ],
+  "selection": "original filename/site-based split; these development subjects were repeatedly reused",
+  "train": [
+    {
+      "site": "HH",
+      "subject": "IXI014"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI015"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI025"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI030"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI033"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI036"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI045"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI046"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI048"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI084"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI103"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI111"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI113"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI123"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI126"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI129"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI140"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI150"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI165"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI185"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI207"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI210"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI231"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI234"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI252"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI255"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI268"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI310"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI324"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI326"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI338"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI350"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI357"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI379"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI387"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI396"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI407"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI408"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI412"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI417"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI426"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI432"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI434"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI443"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI456"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI457"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI462"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI465"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI470"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI479"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI480"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI483"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI491"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI502"
+    },
+    {
+      "site": "IOP",
+      "subject": "IXI517"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI549"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI565"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI566"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI589"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI609"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI610"
+    },
+    {
+      "site": "HH",
+      "subject": "IXI636"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI640"
+    },
+    {
+      "site": "Guys",
+      "subject": "IXI642"
+    }
+  ]
+}

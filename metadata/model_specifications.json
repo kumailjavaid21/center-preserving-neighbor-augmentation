@@ -1,0 +1,116 @@
+{
+  "contextual_roles": [
+    "CENTER",
+    "PLAIN3",
+    "COMPAT3",
+    "NAF3_SCRATCH",
+    "JIANG",
+    "JIANG_BNCAL"
+  ],
+  "generator": {
+    "decoder_blocks": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "encoder_blocks": [
+      2,
+      2,
+      4,
+      8
+    ],
+    "extra_inference_parameters_from_augmentation": 0,
+    "extra_native_forward_from_augmentation": 0,
+    "inputs": [
+      "y_center",
+      "N_tile(y_center)",
+      "y_minus-y_center",
+      "y_plus-y_center"
+    ],
+    "middle_blocks": 12,
+    "parameters": 29159425,
+    "residual_readout": "y_center + raw NAF residual",
+    "width": 32
+  },
+  "matched_final_artifacts": [
+    {
+      "arm": "NOMINAL",
+      "artifact_sha256": "806581a88e5d7018db52be60f3dd51447f1e3d838499936f781f3b636b265459",
+      "generator_sha256": "03a5c89a71a77050a09b61e92bd098405e0d0fe145f1167ba8d7f5c2b711790c",
+      "seed": 20261117,
+      "step": 2400
+    },
+    {
+      "arm": "AUGMENTED",
+      "artifact_sha256": "d47463def2f8e7f25be917026e3f5c8eb51c5e5e9563b1895411df89ef8cb041",
+      "generator_sha256": "4c68a3d04dc0b9bf6a02892b73c5192035f1dc04b716d6b143d08f09750c49eb",
+      "seed": 20261117,
+      "step": 2400
+    },
+    {
+      "arm": "ANCHORED",
+      "artifact_sha256": "a7c1afcefa988ae4c5794d225754e0e29a3d3e56ecb2486c04a2266c072ef2bb",
+      "generator_sha256": "e5701eff384fc3fb6e14bbf209c3190e308b42571cfe7725c51601d12cadc65f",
+      "seed": 20261117,
+      "step": 2400
+    },
+    {
+      "arm": "NOMINAL",
+      "artifact_sha256": "c33dd9510befbaa812ed05e5ca2cd91fc827213260eb43fa12681c0c43dfa7cd",
+      "generator_sha256": "052602f17867405ca0ad31caffdc9fb56aed5a76d744512fa42464ea4434a5e3",
+      "seed": 20261118,
+      "step": 2400
+    },
+    {
+      "arm": "AUGMENTED",
+      "artifact_sha256": "cc3e72163ca1db72a5cbe582b53b5163961ae89eb7a79f0e657e40dbd786965c",
+      "generator_sha256": "9f54cefd305864e2f5e3c7cfe5a78e21b278589f38ed8c4f25a8b3bf3b935f0a",
+      "seed": 20261118,
+      "step": 2400
+    },
+    {
+      "arm": "ANCHORED",
+      "artifact_sha256": "41915c8c5052b25c5feddf53689d86c21ccde3f7895ce05377f9a62832edb7d1",
+      "generator_sha256": "86872118f1237ac129dd5c855895623f8ebeab4548db064935ae71f620aae309",
+      "seed": 20261118,
+      "step": 2400
+    }
+  ],
+  "noise_estimator": {
+    "artifact_sha256": "8247d914511dc8e30a4488b380b979c8c5fd4487623030272a5eb08990763b98",
+    "feature_mode": "contrast",
+    "frozen": true,
+    "parameters": 8761
+  },
+  "required_initial_parent_artifacts": [
+    {
+      "artifact_sha256": "3946fbea82da550aa3748dc98e2642ce892e2822a777bcb155456f66701dbe0d",
+      "generator_sha256": "2f1c479e1453801246e13dbd1791e19cc2b120637b2635b5dbcb49b7fd7cb6b4",
+      "method": "NAF3_SCRATCH",
+      "step": 14400,
+      "stream": 20261117
+    },
+    {
+      "artifact_sha256": "ff8b6c97cd928c5847bfe6f763aae52f7ff60b949b48d9a25a546f594987af9e",
+      "generator_sha256": "6d3a0afad2cc78394428480d89de186c900edc6abfd9953bdd655035c91088d5",
+      "method": "CENTER",
+      "step": 1200,
+      "stream": 20261117
+    },
+    {
+      "artifact_sha256": "f0a2dfcb42624dec91c85140364f138593e2c42ca1b71cd16b53e86cd5550081",
+      "generator_sha256": "ffe26ec4a0f038ff530058f82ffe949c843eadedbd5b7663a003cfede6091961",
+      "method": "NAF3_SCRATCH",
+      "step": 14400,
+      "stream": 20261118
+    },
+    {
+      "artifact_sha256": "50c12a5fa3bd239f65d3c8ca52758a84d3c036d221a91e5c86b80c17361da893",
+      "generator_sha256": "f6bed1b7aeb1e3d0bb4b7ef147be59600092ebf41eddc28e990119ae1244652c",
+      "method": "CENTER",
+      "step": 1200,
+      "stream": 20261118
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "candidate_selection": "AUGMENTED selected after completed development evidence",
+  "effects": {
+    "PRIMARY_THREE_STRESS/ANCHORED_minus_AUGMENTED/psnr": {
+      "CI95_high": -0.0005651239713250436,
+      "CI95_low": -0.002380618883752239,
+      "mean": -0.0015036315976302284
+    },
+    "PRIMARY_THREE_STRESS/AUGMENTED_minus_NOMINAL/psnr": {
+      "CI95_high": 0.8457557779986944,
+      "CI95_low": 0.7407317480500114,
+      "mean": 0.7910622011349773
+    },
+    "PRIMARY_THREE_STRESS/AUGMENTED_minus_NOMINAL/ssim": {
+      "CI95_high": 0.04179216975992517,
+      "CI95_low": 0.037044937324836255,
+      "mean": 0.03934845004714533
+    },
+    "STANDARD/AUGMENTED_minus_NOMINAL/psnr": {
+      "CI95_high": -0.03089698308116735,
+      "CI95_low": -0.05711844021903386,
+      "mean": -0.040674988118307276
+    },
+    "STANDARD/AUGMENTED_minus_NOMINAL/ssim": {
+      "CI95_high": -0.00044664745386283517,
+      "CI95_low": -0.0008393190934991435,
+      "mean": -0.0006355107604839316
+    }
+  },
+  "independent_confirmation_published": false,
+  "interval_source": "Original completed-development named-bootstrap intervals, not later prospective-code reanalysis intervals.",
+  "pooling": "metric streams within subject; no prediction ensemble; n=16",
+  "population": "reused development subjects; descriptive estimates",
+  "primary_stresses": [
+    "SHIFT1",
+    "SHIFT2",
+    "NOISE_HIGH"
+  ],
+  "retention_targets": "Original standard retention targets NOT MET by AUGMENTED and ANCHORED in both streams",
+  "streams": 2,
+  "subjects": 16,
+  "unfavorable_diagnostic": "AUGMENTED remains below CENTER under DIAGNOSTIC_SHIFT"
+}

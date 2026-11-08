@@ -1,0 +1,27 @@
+{
+  "CENTER_scope": "historical unused-neighbor preparation retained",
+  "CUDA_synchronization": true,
+  "all10_models_resident": true,
+  "exclusions": [
+    "disk",
+    "acquisition",
+    "simulation",
+    "deserialization",
+    "hashes"
+  ],
+  "fixture": {
+    "condition": "spatial",
+    "position": 3,
+    "shape": [
+      150,
+      256
+    ],
+    "subject": "IXI014"
+  },
+  "repeats": 20,
+  "rotated_order": true,
+  "scope": "CPU observations through transfer,context,N,G,stitch,projection,host output",
+  "source_sha256": "0bfae132b7128d074cb28420719e27611acda09c20b196f972c18f15333b18e8",
+  "training_cost_scope": "Original measured generator training-step totals; shared frozen-anchor generation is reported separately. Public lazy anchor-cache orchestration is not a new resource benchmark.",
+  "warmups": 30
+}
